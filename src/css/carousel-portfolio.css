@@ -1,0 +1,78 @@
+.slider {
+  height: 678px; }
+  .slider:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: .4;
+    background: #0E1D40;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+  .slider #owlcarousel {
+    height: 100%; }
+    .slider #owlcarousel .owl-stage-outer {
+      text-align: center; }
+      .slider #owlcarousel .owl-stage-outer .owl-item {
+        margin-top: 39px; }
+    .slider #owlcarousel .item {
+      width: 35%;
+      float: right;
+      margin-right: 82px;
+      height: 340px; }
+      .slider #owlcarousel .item h4 {
+        color: white;
+        float: left; }
+      .slider #owlcarousel .item p {
+        color: white;
+        font-size: 18px;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+        letter-spacing: -1px;
+        line-height: 30px;
+        margin-bottom: 33px;
+        float: left;
+        margin-top: 14px; }
+      .slider #owlcarousel .item .btn-view {
+        padding: 12px 36px 12px 36px;
+        border: 2px solid white;
+        color: white;
+        float: left;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 14px;
+        transition: all .5s ease; }
+        .slider #owlcarousel .item .btn-view:hover {
+          background: white;
+          color: black; }
+    .slider #owlcarousel .owl-next {
+      position: absolute;
+      top: 42%;
+      right: 0;
+      float: right;
+      width: 45px;
+      height: 81px;
+      border-radius: 3px;
+      background: rgba(0, 0, 0, 0.3);
+      transition: all .3s ease; }
+      .slider #owlcarousel .owl-next:hover {
+        background: rgba(0, 0, 0, 0.5); }
+      .slider #owlcarousel .owl-next img {
+        margin: 8px;
+        margin-top: 28px;
+        margin-left: 16px; }
+    .slider #owlcarousel .owl-prev {
+      position: absolute;
+      top: 42%;
+      float: left;
+      width: 45px;
+      height: 81px;
+      transition: all .3s ease;
+      border-radius: 3px;
+      background: rgba(0, 0, 0, 0.3); }
+      .slider #owlcarousel .owl-prev:hover {
+        background: rgba(0, 0, 0, 0.5); }
+      .slider #owlcarousel .owl-prev img {
+        margin: 8px;
+        margin-top: 28px; }

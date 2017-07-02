@@ -1,0 +1,60 @@
+.our-clients{
+        padding-top: 60px;
+        padding-bottom: 34px;
+    h2{
+        font-size:24px;
+        margin: 0;
+        text-align: center;
+    }
+    .single-persone{
+            padding-top: 15px;
+            padding-bottom: 15px;
+        .testimon-item{
+            padding: 20px 30px;
+            .testimon-content{
+                position: relative;
+                padding-bottom: 30px;
+                margin-bottom: 30px;
+                p{
+                    margin: 0;
+                    color: #384062;
+                    font-size: 10px;
+                    line-height: 23px;
+                    font-weight: 600;
+                    &:before{
+                        content: "";
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 219px;
+                        height: 14px; 
+                        background: url(../img/blockquote-footer.png);
+                    }
+                }
+            }
+            .testimon-footer{
+                position: relative;
+                h6{
+                    float: left;
+                    color: #bb9725;
+                    font-family: 'Oswald', sans-serif;
+                    font-size: 16px;
+                    margin-left: 32px;
+                }
+                ul{
+                    position: absolute;
+                    top: 37px;
+                    left: 19%;
+                    width: 108px;
+                    height: 22px;
+                    display: flex;
+                    .active{
+                        color: yellow;
+                    }
+                }
+            }
+            
+            
+        }
+    }
+}

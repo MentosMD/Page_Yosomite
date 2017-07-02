@@ -1,0 +1,13 @@
+.about-us-area {
+  height: 373px;
+  padding-top: 100px;
+  padding-bottom: 62px; }
+  .about-us-area h2 {
+    text-align: center;
+    color: #bb9725;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif; }
+  .about-us-area .text {
+    color: #384047;
+    font-size: 14px;
+    font-weight: normal; }

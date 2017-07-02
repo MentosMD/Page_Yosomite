@@ -1,0 +1,77 @@
+
+.header {
+        height: 526px;
+    .header-top-nav{
+        height: 75px;
+    }
+    
+    .header-top-nav .header-logo{
+        .navbar-brand{
+            font-size:28px;
+            color:#2a3e53;
+            height: 74px;
+            line-height: 63px;
+            font-weight: normal;
+            float: left;
+            &:hover{
+                color: #314555;
+            }
+        }
+        
+        
+    }
+    
+    nav{
+            background: none;
+            box-shadow: none;
+            padding: 0;
+            height: 100%;
+        ul{background: white;}
+        ul li{}
+        ul li a{
+            color: #333;
+            text-decoration: none;
+            background: none;
+            padding: 10px 10px 1px 11px;
+            font-size: 10px;
+            text-transform: uppercase;
+            font-weight: 600;
+            &:after{
+                content:"";
+                display: none;
+            }
+           
+        }
+         .menu-dropdown{
+                padding: 0;
+                border-top: 3px solid #bb9725;
+                position: absolute;
+                top: 130%;
+                transition: all .3s ease; 
+                 
+                li{
+                    width: 100%;
+                    text-align: center;
+                    padding-left: 6px;
+                    padding-right: 6px;
+                    padding-top: 4px;
+                }
+                li a{
+                    padding: 0;
+                }
+            }
+         .dropdown:hover>.dropdown-menu{display: block;}
+       
+    }
+       
+    
+    
+    
+    
+    .header-bottom-parallax{
+            height: 452px;
+        
+    }
+}
+
+

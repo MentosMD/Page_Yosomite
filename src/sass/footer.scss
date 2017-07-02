@@ -1,0 +1,38 @@
+.footer{
+        height: 202px;
+        background: #F1F1F1;
+    .subo{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 12px;
+        color: #384047;
+        font-weight: 600;
+        margin: 0;
+    }
+    .footer-wrapper{
+            padding-top: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px dotted #ccc;
+        .footer-content{
+            p{
+                font-size: 12px;
+                color: #717F86;
+            }
+            ul{display: flex;}
+            ul li{
+                padding-left: 4px;
+                padding-right: 4px;
+            }
+            ul li a{
+                    font-size: 11px;
+                    color: #314555;
+                    text-decoration: none;
+                    font-weight: 600;
+                    transition: all .7s ease;
+                &:hover{
+                    color: #28B76D;
+                }
+            }
+        }
+    }
+}

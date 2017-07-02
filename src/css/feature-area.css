@@ -1,0 +1,23 @@
+.feature-area {
+  background: #F1F1F1;
+  padding-bottom: 29px; }
+  .feature-area .title {
+    font-size: 24px;
+    color: #384047;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.4;
+    font-weight: normal; }
+  .feature-area .feature-single {
+    padding: 0;
+    margin-bottom: 40px; }
+    .feature-area .feature-single .feature-title {
+      font-family: 'Oswald', sans-serif;
+      line-height: 1.4;
+      font-weight: normal;
+      margin: 0;
+      margin-bottom: 13px; }
+    .feature-area .feature-single .feature-descript {
+      color: #717f86;
+      font-size: 12px;
+      margin: 0;
+      line-height: 19px; }

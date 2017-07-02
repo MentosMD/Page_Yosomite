@@ -1,0 +1,84 @@
+.portfolio-area{
+    padding-bottom: 29px;
+       .title{
+            font-size:24px;
+            color:#384047;
+            font-family: 'Oswald', sans-serif;
+            line-height: 1.4;
+            font-weight: normal;
+        }
+    .just-text{
+        color: #717f86 ;
+        font-size:12px;
+        font-weight: 600;
+    }
+    .feature-single{
+            margin-bottom: 23px;
+            position: relative;
+        .overlay{
+            position: absolute;
+            width: 91%;
+            height: 100%;
+            opacity: 0.4;
+            background-color: #0E1D40;
+            transition: all .3s;
+            display: none;
+        }
+        &:hover>.work-inner>.work-overlay{display: block;}
+        &:hover>.overlay{display: block;}
+        
+    }
+    
+    .feature-single .work-inner{ 
+        
+        .work-overlay{
+                position: absolute;
+                top:53%;
+                text-align: center;
+                display: none;
+                padding-left: 24px;
+            h3{
+                font-size: 20px;
+                margin: 0;
+                color: white;
+                letter-spacing: -1px;
+            }
+            .work-link{
+                border: 2px solid #a5a5a5;
+                border-radius: 46px;
+                width: 45px;
+                height: 45px;
+                display: inline-block;
+                margin-top: 10px;
+                float: left;
+            }
+            .img-lightbox{
+                border: 2px solid #a5a5a5;
+                border-radius: 46px;
+                width: 45px;
+                height: 45px;
+                display: inline-block;
+                margin-top: 10px;
+                float: left;
+                margin-left: 12px;
+            }
+           
+        }   
+    }
+    
+    .view{
+        text-align: center;
+        display: block;
+        .btn_view{
+            height: 46px;
+            padding: 11px 30px;
+            background: #222222;
+            border: none;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            font-size: 14px;
+            line-height: 20px;
+            
+        }
+    }
+}

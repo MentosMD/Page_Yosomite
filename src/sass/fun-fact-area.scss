@@ -1,0 +1,11 @@
+.fun-fact-area{
+        height: 680px;
+        position: relative;
+    &:before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: #0E1D40;
+        opacity: .4;
+    }
+}

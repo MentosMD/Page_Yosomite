@@ -1,0 +1,71 @@
+.content-design .block-1 {
+  display: inline-block;
+  padding-bottom: 22px; }
+  .content-design .block-1 .top h2 {
+    font-size: 30px;
+    color: #384047;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.4; }
+  .content-design .block-1 .top h5 {
+    font-size: 18px;
+    color: #bb9725;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    line-height: 1.4; }
+  .content-design .block-1 .top p {
+    color: #717f86;
+    font-weight: normal;
+    line-height: 1.8; }
+  .content-design .block-1 .down {
+    padding: 0; }
+    .content-design .block-1 .down figure {
+      margin: 0;
+      height: 100%;
+      text-align: center; }
+    .content-design .block-1 .down .service-box {
+      outline: 1px solid white;
+      outline-offset: -15px; }
+    .content-design .block-1 .down div {
+      margin-bottom: 10px; }
+    .content-design .block-1 .down figure p {
+      position: absolute;
+      top: 50%;
+      width: 87%;
+      color: #fff; }
+
+.content-design .block-2 {
+  height: 50%;
+  background: #F1F1F1;
+  padding-top: 60px;
+  padding-bottom: 26px; }
+  .content-design .block-2 div {
+    height: 100%;
+    display: inline-block;
+    padding: 0; }
+    .content-design .block-2 div .block-text {
+      padding-left: 40px;
+      padding-top: 13px;
+      padding-bottom: 20px;
+      float: right; }
+      .content-design .block-2 div .block-text .just-text {
+        font-size: 23px;
+        color: #bb9725;
+        font-family: 'Oswald', sans-serif;
+        font-weight: normal; }
+      .content-design .block-2 div .block-text p {
+        color: #717F86;
+        font-size: 14px; }
+      .content-design .block-2 div .block-text .cont-btn {
+        margin-top: 43px;
+        height: 0; }
+        .content-design .block-2 div .block-text .cont-btn .btn-contact {
+          background: #222222;
+          padding: 15px;
+          text-decoration: none;
+          color: white;
+          padding-left: 27px;
+          padding-right: 27px;
+          text-transform: uppercase; }

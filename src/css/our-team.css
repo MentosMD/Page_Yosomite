@@ -1,0 +1,77 @@
+.our-team {
+  background: #F1F1F1;
+  padding-top: 60px; }
+  .our-team h2 {
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif; }
+  .our-team p {
+    font-size: 12px;
+    color: #797F86;
+    font-weight: 600; }
+  .our-team .figure-persone {
+    margin-bottom: 20px; }
+    .our-team .figure-persone .team-member {
+      width: 100%;
+      position: relative; }
+      .our-team .figure-persone .team-member:hover > .overlay {
+        display: none; }
+      .our-team .figure-persone .team-member:hover > .member-social {
+        display: block;
+        top: 0;
+        z-index: 99; }
+      .our-team .figure-persone .team-member .overlay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.2);
+        transition: all .3s ease; }
+      .our-team .figure-persone .team-member .member-about {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: center; }
+        .our-team .figure-persone .team-member .member-about h4 {
+          font-size: 17px;
+          position: relative;
+          text-align: center;
+          color: white;
+          margin-bottom: 0;
+          font-family: 'Oswald', sans-serif; }
+        .our-team .figure-persone .team-member .member-about hr {
+          margin: 0;
+          width: 42px;
+          display: inline-block;
+          height: 2px;
+          background: rgba(255, 255, 255, 0.5);
+          text-align: center; }
+        .our-team .figure-persone .team-member .member-about p {
+          text-align: center;
+          color: #eee;
+          font-size: 11px; }
+      .our-team .figure-persone .team-member .member-social {
+        width: 170px;
+        height: 40px;
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: -10%;
+        margin-left: 37px;
+        border-radius: 2px;
+        z-index: -1;
+        transition: all .2s ease; }
+        .our-team .figure-persone .team-member .member-social a i {
+          color: white;
+          width: 31px;
+          height: 31px;
+          border: 2px solid #ddd;
+          border-radius: 31px;
+          margin: 0;
+          font-size: 15px;
+          text-align: center;
+          line-height: 28px;
+          margin: 5px; }
